@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  
+  .container {
+  height:100%;
+  width: 100%;
+  align-items: center; 
+  background-color: white;
+    flex-wrap:wrap;
+    flex-direction: column;
+    display:flex;
+}
+  .row{
+    display:flex;
+    flex-direction:row;
+  }
+  .box{
+    content:"";
+    width: 100px;
+    height:100px;
+    background: grey;
+    margin:160px;
+  }
+
+#item1 {
+  background-color: #8cffa0;
+  min-height: 70px;
+  margin:10px;
+}
+
+#item2 {
+  background-color: #a0c8ff;
+  min-height: 70px;
+  margin:10px;
+}
+
+#item3 {
+  background-color: #ffa08c;
+  min-height: 70px;
+  margin:10px;
+}
+
+#item4 {
+  background-color: #ffff8c;
+  min-height: 70px;
+  margin:10px;
+}
+
+#item5 {
+  background-color: #ff8cff;
+  min-height: 70px;
+  margin:10px;
+}
+
+#item6 {
+  background-color: #8cffff;
+  min-height: 70px;
+  font-size: 20px;
+  margin:10px;
+}
+
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="box" id="item1">1</div>
+          <div class="box" id="item2">2</div>
+          <div class="box" id="item3">3</div>
+    </div>
+    <div class="row">
+        <div class="box" id="item4">4</div>
+        <div class="box" id="item5">5</div>
+        <div class="box" id="item6">6</div>
+     </div>
+    </div>
+   </body>
+</html>
